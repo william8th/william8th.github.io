@@ -8,7 +8,7 @@ header: # Header
 
 author:
   use: false # Author display being used
-  picture-url: # Absolute URL to your picture in 150px x 150px
+  picture-url: # Relative URL to your picture in 150px x 150px
   name: # Your name
   about: # Relative URL link to 'About me' page e.g. "picture.html" if it's http://localhost/picture.html
   twitter: # Twitter username
