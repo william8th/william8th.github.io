@@ -14,7 +14,7 @@ Prerequisites
 -------------
 It is essential that you have these prerequisites installed to use this theme.
 
-- [Git](https://github.com/): the version control system (*duh*)
+- [Git](https://github.com/): the version control system (_duh_)
 - [Ruby](https://www.ruby-lang.org/): the programming language
 - [Jekyll](http://jekyllrb.com): the simple static site generator written in Ruby
 
