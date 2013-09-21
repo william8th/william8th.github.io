@@ -3,7 +3,7 @@ layout: default
 title: Edit this in index.html
 ---
 
-	{% for post in site.posts limit 3 %}
+	{% for post in paginator.posts %}
 	<div id="article" class="row">
 		<div id="title" class="col-xs-12 col-md-12 col-sm-12">
 			<h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -14,3 +14,33 @@ title: Edit this in index.html
 		</div>
 	</div> <!-- article -->
     {% endfor %}
+
+    <div id="navigation" class="row">
+    	<div class="col-xs-12 col-md-12 col-sm-12 text-center">
+		    <ul class="pagination">
+			    {% if paginator.previous_page %}
+			    	{% if paginator.previous_page == 1 %}
+			    		<li><a href="/">&laquo;</a></li>
+			    	{% else %}
+			    		<li><a href="{{ paginator.previous_page_path }}">&laquo;</a></li>
+			    	{% endif %}
+			    {% endif %}
+
+		    	<li><a href="/">1</a></li>
+
+				{% for count in (2..paginator.total_pages) %}
+					{% if count == paginator.page %}
+						<li class="active"><a href="#">{{ count }}</a>
+					{% else %}
+						<li><a href="/page/{{ count }}">{{ count }}</a>
+					{% endif %}
+					
+					</li>
+				{% endfor %}
+
+			    {% if paginator.next_page %}
+			    	<li><a href="{{ paginator.next_page_path }}">&raquo;</a></li>
+			    {% endif %}
+			</ul>
+		</div> <!-- column -->
+	</div> <!-- pagination -->
