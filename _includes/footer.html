@@ -1,0 +1,51 @@
+			</div> <!-- content -->
+			
+			{% if site.author.use %}
+			<div id="author" class="container">
+				<div class="row">
+					{% if site.author.picture-url %}
+					<div class="col-xs-12 col-md-12 col-sm-12 text-center">
+						<div class="circle" style="background: url('{{ site.author.picture-url }}');"></div>
+					</div>
+					{% endif %}
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-12 col-sm-12 text-center">
+						<p>{{ site.author.name }}</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-md-12 col-sm-12 text center">
+						<ul class="pager">
+							{% if site.author.about %}
+							<li><a href="{{ site.url }}{{ site.author.about }}">About me</a></li>
+							{% endif %}
+
+							{% if site.author.twitter %}
+							<li><a href="https://twitter.com/{{ site.author.twitter }}">@{{ site.author.twitter }}</a></li>
+							{% endif %}
+
+							{% if site.author.github %}
+							<li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+			</div> <!-- author -->
+			{% endif %}
+
+			<div id="copyright" class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-xs-12 text-center">
+						<p>
+							&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}
+							<br />
+							Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Design by <a href="http://williamheng.com/">William Heng</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> <!-- wrap -->
+	</body>
+</html>

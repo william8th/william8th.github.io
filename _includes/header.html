@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{ site.name }} - {{ page.title }}</title>
+		<link href="{{ site.url }}css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="{{ site.url }}css/syntax.css" rel="stylesheet" type="text/css" />
+		<link href="{{ site.url }}css/style.css" rel="stylesheet" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="wrap" class="container">
+			<div id="heading" class="row">
+				<div class="col-xs-12 col-md-12 col-sm-21 text-center">
+					<a href="{{ site.url }}"><h1>{{ site.header.text }}</h1></a>
+					
+					{% if site.header.subtext %}
+					<h6 class="text-muted">{{ site.header.subtext }}</h6>
+					{% endif %}
+				</div>
+			</div> <!-- heading -->
+
+			<div id="content" class="container">
