@@ -4,9 +4,6 @@ title:	"To ship and to deliver"
 date:	2013-09-23 23:07:33
 ---
 
-To ship and to deliver
-======================
-
 The origin
 ----------
 As I flipped pages after pages of the late Steve Jobs' biography, indulged as I was while my subconscious mind kept resonating with the words from the previous chapters: real artists ship. "These words are very familiar," my mind spoke to itself while it was rummaging through bits and pieces of my memory trying to recall such words from the past.
