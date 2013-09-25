@@ -1,6 +1,7 @@
 name: "Site Name" # Name for site
 permalink: /:year/:month/:title # Permalink for site
 url: http://192.168.1.12:4000/ # URL to site
+analytics: # Google analytics tracking code
 
 header: # Header
   text: "HEADER" # Header text, looks better in all-caps IMO
