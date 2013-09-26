@@ -9,7 +9,7 @@ title: Edit this in index.html
 			<h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
 		</div>
 		<div id="excerpt" class="col-xs-12 col-md-12 col-sm-12">
-			{{ post.excerpt }}
+			{{ post.content | strip_html | truncatewords: 70 }}
 			<a href="{{ post.url }}">Read more...</a>
 		</div>
 	</div> <!-- article -->
