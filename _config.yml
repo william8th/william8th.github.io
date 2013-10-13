@@ -1,6 +1,6 @@
 name: "William Heng" # Name for site
 permalink: /:year/:month/:title # Permalink for site
-url: http://william8th.github.io/ # URL to site
+url: http://william8th.github.io # URL to site
 
 header: # Header
   text: "WRITE" # Header text, looks better in all-caps IMO
