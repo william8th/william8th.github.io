@@ -16,7 +16,12 @@ author:
 
 gems: [jekyll-paginate]
 
-markdown: redcarpet
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 paginate: 3
 paginate_path: "/page/:num"
