@@ -14,7 +14,9 @@ author:
   twitter: "william8th" # Twitter username
   github: "william8th" # Github username
 
+gems: [jekyll-paginate]
+
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 3
 paginate_path: "/page/:num"
