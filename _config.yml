@@ -8,7 +8,7 @@ header: # Header
 
 author:
   use: true # Author display being used
-  picture-url: "/assets/me.png" # Absolute URL to your picture in 150px x 150px
+  picture-url: "/assets/me.jpg" # Absolute URL to your picture in 150px x 150px
   name: "William Heng" # Your name
   about: "about-me" # Relative URL link to 'About me' page e.g. "picture.html" if it's http://localhost/picture.html
   twitter: "william8th" # Twitter username
