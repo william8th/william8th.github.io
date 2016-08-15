@@ -1,7 +1,7 @@
 ---
 layout:	post
 title:	"To ship and to deliver"
-date:	2013-09-23 23:07:33
+date:	2013-09-23 23:07:33 +0800
 ---
 
 The origin

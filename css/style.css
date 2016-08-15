@@ -29,7 +29,7 @@
 }
 
 #content {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .circle {
@@ -62,8 +62,34 @@
 	margin: 0 auto 20px auto;
 }
 
+#content h1, h2, h3 {
+	font-family: 'Times New Roman', 'Lucida Bright', Georgia, serif;
+	font-weight: bold;
+}
+
+#article h2, h3 {
+	margin-top: 55px;
+	margin-bottom: 5px;
+}
+
+#article h2 {
+	font-size: 26px;
+}
+
+#article h3 {
+	font-size: 24px;
+}
+
+h1.title {
+	font-size: 30px;
+}
+
 #article {
 	margin: 0 auto 20px auto;
+}
+
+#article p {
+	margin-bottom: 25px;
 }
 
 #navigation {
