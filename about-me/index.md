@@ -3,6 +3,6 @@ layout: post
 title: About me
 ---
 
-A computer science undergraduate seeking to quench his thirst for knowledge. Beneath his humongous head lies a brain that functions like a sponge. How long more can the sponge soak itself up? Only time can tell.
+Hi! I'm William, a software engineer hailing from Malaysia who's currently working in the fintech space in London, UK. 
 
-> To write is to learn how to speak. To think is to learn how to live.
+I'm responsible for the credit cards services at Zopa as a senior software engineer. I'm also an aspirational distributed systems apprentice and am always interested to have a chat about distributed systems! 

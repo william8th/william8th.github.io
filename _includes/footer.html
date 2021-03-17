@@ -4,9 +4,9 @@
 			<div id="author" class="container">
 				<div class="row">
 					{% if site.author.picture-url %}
-					<div class="col-xs-12 col-md-12 col-sm-12 text-center">
-						<div class="circle" style="background: url('{{ site.author.picture-url }}');"></div>
-					</div>
+						<div class="col-xs-12 col-md-12 col-sm-12 text-center">
+							<div class="circle" style="background: url('{{ site.author.picture-url }}');"></div>
+						</div>
 					{% endif %}
 				</div>
 				<div class="row">
@@ -15,22 +15,22 @@
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-xs-12 col-md-12 col-sm-12 text center">
-						<ul class="pager">
+				<div id="author-social" class="row">
+					<div class="col"></div>
+					<div class="col text center">
 							{% if site.author.about %}
-							<li><a href="{{ site.url }}{{ site.author.about }}">About me</a></li>
+								<button type="button" class="btn btn-light"><a href="/{{ site.author.about }}">About me</a></button>
 							{% endif %}
 
 							{% if site.author.twitter %}
-							<li><a href="https://twitter.com/{{ site.author.twitter }}">@{{ site.author.twitter }}</a></li>
+								<button type="button" class="btn btn-light"><a href="https://twitter.com/{{ site.author.twitter }}">@{{ site.author.twitter }}</a></button>
 							{% endif %}
 
 							{% if site.author.github %}
-							<li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+								<button type="button" class="btn btn-light"><a href="https://github.com/{{ site.author.github }}">GitHub</a></button>
 							{% endif %}
-						</ul>
 					</div>
+					<div class="col"></div>
 				</div>
 			</div> <!-- author -->
 			{% endif %}

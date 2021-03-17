@@ -3,8 +3,8 @@ permalink: /:year/:month/:title # Permalink for site
 url: "http://williamheng.com/" # URL to site with a trailing slash
 
 header: # Header
-  text: "WRITE" # Header text, looks better in all-caps IMO
-  subtext: "Stories worth writing." # Header subtext
+  text: "My notes and ramblings" # Header text, looks better in all-caps IMO
+  subtext: "Distributed computing is a pain" # Header subtext
 
 author:
   use: true # Author display being used
@@ -23,5 +23,5 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-paginate: 3
+paginate: 7
 paginate_path: "/page/:num"

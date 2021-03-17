@@ -1,6 +1,5 @@
 #heading h1 {
 	font-size: 400%;
-	letter-spacing: 20px;
 }
 
 #heading {
@@ -52,6 +51,7 @@
 	color: #FFF;
 	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
+	padding-bottom: 1em;
 }
 
 .pager a {
@@ -111,9 +111,12 @@ h1.title {
 	color: #FFF;
 }
 
-
 ul.pagination {
 	margin: 0px;
+}
+
+#author-social button a {
+	text-decoration: none;
 }
 
 #copyright {
