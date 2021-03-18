@@ -1,6 +1,6 @@
 name: "William Heng" # Name for site
 permalink: /:year/:month/:title # Permalink for site
-url: "http://williamheng.com/" # URL to site with a trailing slash
+url: "https://williamheng.com/" # URL to site with a trailing slash
 
 header: # Header
   text: "My notes and ramblings" # Header text, looks better in all-caps IMO
